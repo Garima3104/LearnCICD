@@ -11,3 +11,6 @@ jobs:
         - name: Say hello
           run: |
             echo "Hello World!"
+        - name: View Other Doc
+          run: cat Test.txt
+            
