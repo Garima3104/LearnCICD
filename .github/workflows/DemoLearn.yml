@@ -11,6 +11,7 @@ jobs:
         - name: Say hello
           run: |
             echo "Hello World!"
+        - uses: actions/checkout@v4
         - name: View Other Doc
           run: cat Test.txt
             
